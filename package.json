@@ -2,8 +2,9 @@
   "name": "congregationassistant",
   "version": "0.0.1",
   "description": "Assistant to some JW common congregation's tasks",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "test"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/jalejomg/CongregationAssistant/issues"
   },
-  "homepage": "https://github.com/jalejomg/CongregationAssistant#readme"
+  "homepage": "https://github.com/jalejomg/CongregationAssistant#readme",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "typescript": "^4.9.4"
+  }
 }
