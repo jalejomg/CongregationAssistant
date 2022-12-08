@@ -1,0 +1,19 @@
+{
+  "name": "congregationassistant",
+  "version": "0.0.1",
+  "description": "Assistant to some JW common congregation's tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalejomg/CongregationAssistant.git"
+  },
+  "author": "JW Folks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jalejomg/CongregationAssistant/issues"
+  },
+  "homepage": "https://github.com/jalejomg/CongregationAssistant#readme"
+}
