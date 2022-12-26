@@ -40,6 +40,7 @@
         "@types/supertest": "^2.0.12",
         "@typescript-eslint/eslint-plugin": "^5.30.5",
         "@typescript-eslint/parser": "^5.30.5",
+        "cross-env": "^7.0.3",
         "electron": "^22.0.0",
         "eslint": "^8.19.0",
         "eslint-config-prettier": "^8.5.0",
@@ -57,7 +58,7 @@
     "scripts": {
         "start": "electron ./dist/main.js",
         "build": "npm run electron-build && npm run react-build",
-        "react-build": "BUILD_PATH=./dist/ui/ react-scripts build",
+        "react-build": "cross-env BUILD_PATH=./dist/ui/ react-scripts build",
         "electron-build": "tsc --project client/tsconfig.json",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
